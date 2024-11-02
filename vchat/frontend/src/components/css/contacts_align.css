@@ -1,0 +1,43 @@
+._z-index{
+    z-index:1 !important;
+}
+
+
+/* add friends search bar is getting implemented */
+
+
+.search-box{
+    position:relative;
+    top:6px;
+
+}
+
+.results{
+    color:grey;
+    position:absolute;
+    display:block;
+    max-height:210px;
+    overflow-y:scroll;
+    width:100%;
+    /* margin-top: 8.1px; */
+}
+
+.search-box .results .p{
+    color: aqua !important;
+}
+
+.user-add-button{
+    border: 1px solid black;
+    background-color: grey;
+    border-radius: 50px;
+}
+
+.user-add-button:hover{
+    background-color:aquamarine;
+}
+
+._d-flex{
+    display: flex!important;
+    justify-content: space-between;
+    flex-direction: row;
+}

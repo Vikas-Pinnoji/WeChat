@@ -1,0 +1,73 @@
+
+        .navbar-global {
+            background-color: indigo;
+        }
+
+        .navbar-global .navbar-brand {
+            color: white;
+        }
+
+        .navbar-global .navbar-user>li>a {
+            color: white;
+        }
+
+        .navbar-primary {
+            background-color: #333;
+            bottom: 0px;
+            height: -webkit-fill-available;
+            left: 0px;
+            position: absolute;
+            top: 0px;
+            width: 200px;
+            z-index: 0;
+            overflow: hidden;
+            -webkit-transition: all 0.5s ease-in-out;
+            -moz-transition: all 0.5s ease-in-out;
+            transition: all 0.5s ease-in-out;
+            padding-top: 66px;
+        }
+
+        .navbar-primary.collapsed {
+
+            width: 72px;
+        }
+
+        .navbar-primary.collapsed .btn-text {
+            display: none;
+        }
+
+        .btn-expand-collapse {
+            position: absolute;
+            display: block;
+            left: 0px;
+            bottom: 0;
+            width: 100%;
+            padding: 8px 0;
+            border-top: solid 1px #666;
+            color: grey;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        .btn-expand-collapse:hover,
+        .btn-expand-collapse:focus {
+            background-color: #222;
+            color: white;
+        }
+
+        .btn-expand-collapse:active {
+            background-color: #111;
+        }
+
+        .navbar-primary-menu,
+        .navbar-primary-menu li {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+
+
+        .collapsed+.text-input-container {
+            margin-left: 81px;
+        }
